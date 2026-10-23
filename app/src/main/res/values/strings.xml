@@ -1,0 +1,117 @@
+<resources>
+    <!-- App & Identity -->
+    <string name="app_name">BIT230033 Food Manager</string>
+    <string name="mssv_project_title">BIT230033_FoodManager</string>
+
+    <!-- Navigation & Titles -->
+    <string name="title_dish_list">Food Menu</string>
+    <string name="title_dish_detail">Dish Details</string>
+    <string name="title_add_dish">Add New Dish</string>
+    <string name="title_edit_dish">Edit Dish</string>
+    <string name="title_manage_categories">Manage Categories</string>
+    <string name="title_filter_sort">Filter &amp; Sort</string>
+
+    <!-- Search & Filter -->
+    <string name="search_hint">Search dish by name…</string>
+    <string name="filter_category">Category</string>
+    <string name="filter_all_categories">All Categories</string>
+    <string name="filter_status">Status</string>
+    <string name="filter_status_all">All Statuses</string>
+    <string name="filter_status_available">Available Only</string>
+    <string name="filter_status_unavailable">Unavailable Only</string>
+    <string name="filter_price_range">Price Range</string>
+    <string name="price_min">Min Price</string>
+    <string name="price_max">Max Price</string>
+    <string name="sort_by">Sort By</string>
+    <string name="sort_default">Default (Newest First)</string>
+    <string name="sort_price_asc">Price: Low to High</string>
+    <string name="sort_price_desc">Price: High to Low</string>
+    <string name="sort_prep_asc">Preparation Time: Fastest First</string>
+    <string name="btn_apply_filter">Apply Filter</string>
+    <string name="btn_reset_filter">Reset Filter</string>
+
+    <!-- Category Names & Descriptions Localization -->
+    <string name="cat_appetizers">Appetizers</string>
+    <string name="cat_main_courses">Main Courses</string>
+    <string name="cat_desserts_drinks">Desserts &amp; Drinks</string>
+    <string name="cat_desc_appetizers">Light dishes served before main courses</string>
+    <string name="cat_desc_main_courses">Hearty and fulfilling main meal dishes</string>
+    <string name="cat_desc_desserts_drinks">Sweet treats and refreshing beverages</string>
+
+    <!-- Filter Summary Labels -->
+    <string name="filter_active_title">Active Filters</string>
+    <string name="filter_summary_price">Price: %1$s - %2$s</string>
+    <string name="filter_summary_price_asc">Price ↑</string>
+    <string name="filter_summary_price_desc">Price ↓</string>
+    <string name="filter_summary_prep_asc">Prep Time ↑</string>
+
+    <!-- Dish Properties -->
+    <string name="label_dish_name">Dish Name</string>
+    <string name="label_price">Price</string>
+    <string name="label_prep_time">Preparation Time (mins)</string>
+    <string name="label_category">Category</string>
+    <string name="label_description">Description</string>
+    <string name="label_is_available">Available for Sale</string>
+    <string name="label_images">Images</string>
+    <string name="msg_dish_saved">Dish saved successfully.</string>
+    <string name="msg_dish_deleted">Dish deleted successfully.</string>
+    <string name="msg_thumbnail_updated">Thumbnail updated successfully.</string>
+    <string name="msg_category_saved">Category saved successfully.</string>
+    <string name="msg_category_deleted">Category deleted successfully.</string>
+    <string name="err_cat_name_duplicate">Category name already exists.</string>
+
+    <!-- Badges & Status -->
+    <string name="badge_quick">Quick</string>
+    <string name="badge_regular">Regular</string>
+    <string name="badge_available">Available</string>
+    <string name="badge_unavailable">Unavailable</string>
+    <string name="badge_thumbnail">Thumbnail</string>
+    <string name="time_mins">%1$d mins</string>
+
+    <!-- Buttons & Actions -->
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_add_image">Add Image</string>
+    <string name="btn_set_thumbnail">Set as Thumbnail</string>
+    <string name="btn_preview">Preview</string>
+    <string name="btn_add_category">Add Category</string>
+
+    <!-- Dialogs & Confirmations -->
+    <string name="dialog_delete_dish_title">Delete Dish</string>
+    <string name="dialog_delete_dish_msg">Are you sure you want to delete \"%1$s\"? This action cannot be undone.</string>
+    <string name="dialog_delete_cat_title">Delete Category</string>
+    <string name="dialog_delete_cat_msg">Are you sure you want to delete category \"%1$s\"?</string>
+    <string name="dialog_add_image_title">Add Image by URL</string>
+    <string name="hint_image_url">https://example.com/image.jpg</string>
+    <string name="dialog_add_cat_title">New Category</string>
+    <string name="hint_cat_name">Category Name</string>
+    <string name="hint_cat_desc">Category Description</string>
+
+    <!-- Validation & Error Messages -->
+    <string name="err_dish_name_empty">Dish name cannot be empty.</string>
+    <string name="err_dish_name_duplicate">A dish with this name already exists in this category.</string>
+    <string name="err_price_invalid">Price must be greater than 0.</string>
+    <string name="err_prep_time_invalid">Preparation time must be greater than 0.</string>
+    <string name="err_category_required">Please select a category.</string>
+    <string name="err_image_url_invalid">Invalid URL. Must start with http:// or https://</string>
+    <string name="err_cat_name_empty">Category name cannot be empty.</string>
+    <string name="err_cat_in_use">Cannot delete category because it contains dishes. Please reassign or delete dishes first.</string>
+    <string name="err_price_range_invalid">Min price cannot be greater than Max price.</string>
+    <string name="err_dish_not_found">Dish not found or already deleted.</string>
+
+    <!-- Empty States & Network -->
+    <string name="empty_dish_title">No dishes found</string>
+    <string name="empty_dish_subtitle">Try adjusting your search or filters, or add a new dish.</string>
+    <string name="empty_category_title">No categories available</string>
+    <string name="net_offline_notice">Offline mode. Changes are saved locally and will auto-sync once online.</string>
+    <string name="net_sync_success">Data synchronized with server.</string>
+    <string name="net_status_online">Online</string>
+    <string name="net_status_offline">Offline</string>
+
+    <!-- Language Selector -->
+    <string name="lang_english">English</string>
+    <string name="lang_vietnamese">Tiếng Việt</string>
+    <string name="switch_language">Language</string>
+</resources>

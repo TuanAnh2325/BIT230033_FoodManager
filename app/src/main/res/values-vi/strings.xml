@@ -1,0 +1,117 @@
+<resources>
+    <!-- App & Identity -->
+    <string name="app_name">BIT230033 Quản Lý Món Ăn</string>
+    <string name="mssv_project_title">BIT230033_FoodManager</string>
+
+    <!-- Navigation & Titles -->
+    <string name="title_dish_list">Thực Đơn Món Ăn</string>
+    <string name="title_dish_detail">Chi Tiết Món Ăn</string>
+    <string name="title_add_dish">Thêm Món Mới</string>
+    <string name="title_edit_dish">Chỉnh Sửa Món Ăn</string>
+    <string name="title_manage_categories">Quản Lý Loại Món</string>
+    <string name="title_filter_sort">Bộ Lọc &amp; Sắp Xếp</string>
+
+    <!-- Search & Filter -->
+    <string name="search_hint">Tìm món ăn theo tên…</string>
+    <string name="filter_category">Loại Món</string>
+    <string name="filter_all_categories">Tất Cả Loại Món</string>
+    <string name="filter_status">Trạng Thái</string>
+    <string name="filter_status_all">Tất Cả Trạng Thái</string>
+    <string name="filter_status_available">Chỉ Món Đang Bán</string>
+    <string name="filter_status_unavailable">Chỉ Món Ngừng Bán</string>
+    <string name="filter_price_range">Khoảng Giá (VND)</string>
+    <string name="price_min">Giá từ</string>
+    <string name="price_max">Giá đến</string>
+    <string name="sort_by">Sắp Xếp Theo</string>
+    <string name="sort_default">Mặc định (Mới nhất trước)</string>
+    <string name="sort_price_asc">Giá: Thấp đến Cao</string>
+    <string name="sort_price_desc">Giá: Cao đến Thấp</string>
+    <string name="sort_prep_asc">Thời Gian: Nhanh nhất trước</string>
+    <string name="btn_apply_filter">Áp Dụng Bộ Lọc</string>
+    <string name="btn_reset_filter">Đặt Lại Bộ Lọc</string>
+
+    <!-- Category Names & Descriptions Localization (Tiếng Việt) -->
+    <string name="cat_appetizers">Món khai vị</string>
+    <string name="cat_main_courses">Món chính</string>
+    <string name="cat_desserts_drinks">Tráng miệng &amp; Đồ uống</string>
+    <string name="cat_desc_appetizers">Món ăn nhẹ phục vụ trước bữa chính</string>
+    <string name="cat_desc_main_courses">Các món ăn no đậm đà cho bữa chính</string>
+    <string name="cat_desc_desserts_drinks">Món ngọt tráng miệng và đồ uống giải khát</string>
+
+    <!-- Filter Summary Labels -->
+    <string name="filter_active_title">Bộ lọc đang áp dụng</string>
+    <string name="filter_summary_price">Giá: %1$s - %2$s</string>
+    <string name="filter_summary_price_asc">Giá ↑</string>
+    <string name="filter_summary_price_desc">Giá ↓</string>
+    <string name="filter_summary_prep_asc">Thời gian ↑</string>
+
+    <!-- Dish Properties -->
+    <string name="label_dish_name">Tên Món Ăn</string>
+    <string name="label_price">Giá Bán</string>
+    <string name="label_prep_time">Thời Gian Chế Biến (phút)</string>
+    <string name="label_category">Loại Món</string>
+    <string name="label_description">Mô Tả</string>
+    <string name="label_is_available">Đang Kinh Doanh</string>
+    <string name="label_images">Hình Ảnh</string>
+    <string name="msg_dish_saved">Đã lưu món ăn thành công.</string>
+    <string name="msg_dish_deleted">Đã xóa món ăn thành công.</string>
+    <string name="msg_thumbnail_updated">Đã cập nhật ảnh đại diện thành công.</string>
+    <string name="msg_category_saved">Đã lưu loại món thành công.</string>
+    <string name="msg_category_deleted">Đã xóa loại món thành công.</string>
+    <string name="err_cat_name_duplicate">Tên loại món này đã tồn tại.</string>
+
+    <!-- Badges & Status -->
+    <string name="badge_quick">Nhanh</string>
+    <string name="badge_regular">Thông thường</string>
+    <string name="badge_available">Đang bán</string>
+    <string name="badge_unavailable">Ngừng bán</string>
+    <string name="badge_thumbnail">Ảnh đại diện</string>
+    <string name="time_mins">%1$d phút</string>
+
+    <!-- Buttons & Actions -->
+    <string name="btn_save">Lưu Dữ Liệu</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="btn_delete">Xóa</string>
+    <string name="btn_edit">Sửa</string>
+    <string name="btn_add_image">Thêm Ảnh</string>
+    <string name="btn_set_thumbnail">Đặt Làm Ảnh Đại Diện</string>
+    <string name="btn_preview">Xem Trước</string>
+    <string name="btn_add_category">Thêm Loại Món</string>
+
+    <!-- Dialogs & Confirmations -->
+    <string name="dialog_delete_dish_title">Xóa Món Ăn</string>
+    <string name="dialog_delete_dish_msg">Bạn có chắc chắn muốn xóa món \"%1$s\" không? Thao tác này không thể hoàn tác.</string>
+    <string name="dialog_delete_cat_title">Xóa Loại Món</string>
+    <string name="dialog_delete_cat_msg">Bạn có chắc chắn muốn xóa loại món \"%1$s\" không?</string>
+    <string name="dialog_add_image_title">Thêm Ảnh Bằng URL</string>
+    <string name="hint_image_url">https://example.com/anh-mon-an.jpg</string>
+    <string name="dialog_add_cat_title">Thêm Loại Món Mới</string>
+    <string name="hint_cat_name">Tên Loại Món</string>
+    <string name="hint_cat_desc">Mô Tả Loại Món</string>
+
+    <!-- Validation & Error Messages -->
+    <string name="err_dish_name_empty">Tên món không được để trống.</string>
+    <string name="err_dish_name_duplicate">Tên món đã tồn tại trong loại này.</string>
+    <string name="err_price_invalid">Giá bán phải lớn hơn 0.</string>
+    <string name="err_prep_time_invalid">Thời gian chế biến phải lớn hơn 0.</string>
+    <string name="err_category_required">Vui lòng chọn loại món ăn.</string>
+    <string name="err_image_url_invalid">Đường dẫn URL không hợp lệ. Phải bắt đầu bằng http:// hoặc https://</string>
+    <string name="err_cat_name_empty">Tên loại món không được để trống.</string>
+    <string name="err_cat_in_use">Không thể xóa loại món này vì vẫn còn món ăn đang thuộc về nó.</string>
+    <string name="err_price_range_invalid">Giá tối thiểu không được lớn hơn giá tối đa.</string>
+    <string name="err_dish_not_found">Món ăn không tồn tại hoặc đã bị xóa.</string>
+
+    <!-- Empty States & Network -->
+    <string name="empty_dish_title">Không tìm thấy món ăn nào</string>
+    <string name="empty_dish_subtitle">Hãy thử điều chỉnh từ khóa tìm kiếm, bộ lọc hoặc thêm món mới.</string>
+    <string name="empty_category_title">Chưa có loại món ăn nào</string>
+    <string name="net_offline_notice">Đang ở chế độ ngoại tuyến. Dữ liệu đã lưu cục bộ và sẽ tự động đồng bộ khi có mạng.</string>
+    <string name="net_sync_success">Dữ liệu đã được đồng bộ với máy chủ.</string>
+    <string name="net_status_online">Trực tuyến</string>
+    <string name="net_status_offline">Ngoại tuyến</string>
+
+    <!-- Language Selector -->
+    <string name="lang_english">English</string>
+    <string name="lang_vietnamese">Tiếng Việt</string>
+    <string name="switch_language">Ngôn Ngữ</string>
+</resources>

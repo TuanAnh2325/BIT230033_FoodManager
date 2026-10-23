@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".FoodApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_food_placeholder"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_food_placeholder"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FoodManager">
+
+        <activity
+            android:name=".ui.list.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.detail.DishDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.list.MainActivity" />
+
+        <activity
+            android:name=".ui.form.AddEditDishActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.list.MainActivity" />
+
+        <activity
+            android:name=".ui.category.ManageCategoryActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.list.MainActivity" />
+
+    </application>
+
+</manifest>

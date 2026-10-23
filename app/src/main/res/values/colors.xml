@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Primary Colors (Professional Modern Navy / Indigo) -->
+    <color name="primary">#1E3A8A</color>
+    <color name="primary_dark">#172554</color>
+    <color name="primary_light">#3B82F6</color>
+    <color name="primary_surface">#EFF6FF</color>
+
+    <!-- Accent Colors -->
+    <color name="accent">#F59E0B</color>
+    <color name="accent_dark">#D97706</color>
+
+    <!-- Semantic Status Colors -->
+    <color name="status_quick_bg">#DCFCE7</color>
+    <color name="status_quick_text">#15803D</color>
+    <color name="status_regular_bg">#FEF3C7</color>
+    <color name="status_regular_text">#B45309</color>
+    <color name="status_available_bg">#E0E7FF</color>
+    <color name="status_available_text">#3730A3</color>
+    <color name="status_unavailable_bg">#FEE2E2</color>
+    <color name="status_unavailable_text">#B91C1C</color>
+
+    <!-- Neutrals & Backgrounds -->
+    <color name="background">#F8FAFC</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#E2E8F0</color>
+    <color name="border">#CBD5E1</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_hint">#94A3B8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Online / Offline indicators -->
+    <color name="online_green">#10B981</color>
+    <color name="offline_gray">#6B7280</color>
+</resources>
